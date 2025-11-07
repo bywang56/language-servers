@@ -38,6 +38,7 @@ import { AmazonQError, AmazonQServiceConnectionExpiredError } from '../../../sha
 import { DocumentChangedListener } from '../documentChangedListener'
 import { EMPTY_RESULT } from '../contants/constants'
 import { StreakTracker } from '../tracker/streakTracker'
+import { UserDecisionReason } from '@amzn/codewhisperer-runtime'
 import { processEditSuggestion } from '../utils/diffUtils'
 import { EditClassifier } from '../auto-trigger/editPredictionAutoTrigger'
 
